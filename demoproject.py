@@ -1,5 +1,7 @@
 # learn project
-def fun(x,y):
+def fun():
+    x = float(input('Enter the first number'))
+    y = float(input('Engter the second number'))
     return x+y
 
 num = fun(5,2)
